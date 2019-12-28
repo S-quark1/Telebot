@@ -3,9 +3,10 @@ from telebot import types
 import requests
 import random
 import flask
+import os
 
 appname="hp--quiz"
-server = flask.Flask(_name_)
+server = flask.Flask(__name__)
 apikey="c3b72fba-ccc3-4d99-a3d3-e8576f62152c"
 
 token="992524029:AAEfRoU11Gipy9_bspGQfGGLqHc-oRDpvV0"
@@ -163,5 +164,5 @@ def index():
      return "Hello from Heroku!", 200
      
 
-if _name_ == "_main_":
+if _name_ == "__main__":
      server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
