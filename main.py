@@ -150,7 +150,6 @@ def Info(msg):
         bot.send_message(msg.chat.id, "OK")
 
 #bot.polling()
-#If you wanna hack this code, know that code is made by 15 year old girl who loves IT and lives in KZ... You may broke her heart. Because she is very pround with it!
 
 @server.route('/' + token, methods=['POST'])
 def get_message():
