@@ -1,2 +1,2 @@
 # Telebot
-# Was made by younger me who had no clue about how Github works...
+Guess a character from Harry Potter!
